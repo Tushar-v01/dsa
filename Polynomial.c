@@ -8,7 +8,7 @@ struct node
     struct node* next;
 }*head,*head1,*head2,*newnode,*temp,*temp1,*t,*temp2,*head3,*temp3;
 
-struct node* Pread()
+struct node* Pread()  // Take input from user
 {
      int n;
      printf("Enter number of term in polynomial:");
@@ -67,7 +67,7 @@ struct node* Pread()
      }
      return head;
 }
-void Pwrite(struct node* h)
+void Pwrite(struct node* h) // Print output
 {
      temp=h;
      printf("%+dx^%d",temp->coef,temp->exp);
@@ -80,7 +80,7 @@ void Pwrite(struct node* h)
      printf("\n");
 }
 
-void Padd()
+void Padd()      // Addition of two polynomial
 {
      temp1=head1;
      temp2=head2;
