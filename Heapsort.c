@@ -76,5 +76,6 @@ int main()
    {
     printf("%d ",a[i]);
    }
+printf("Thanks for using our program";
 
 }
