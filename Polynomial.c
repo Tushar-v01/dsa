@@ -347,6 +347,6 @@ int main()
      Pmult();
      printf("\n\nEVALUATION=");
      Peval();
-     printf("\n\nErase:\n");
+     printf("\n\nDelete:\n");
      Perase();
 }
