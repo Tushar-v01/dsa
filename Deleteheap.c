@@ -52,13 +52,13 @@ int main()
    {
     printf("%d ",a[i]);
    }
-   printf("\n");
-   delete_max(a,n);
-   n=n-1;
-   printf("\nOUTPUT\n");
-   for(int i=0;i<n;i++)
-   {
-    printf("%d ",a[i]);
-   }
+//    printf("\n");
+//    delete_max(a,n);
+//    n=n-1;
+//    printf("\nOUTPUT\n");
+//    for(int i=0;i<n;i++)
+//    {
+//     printf("%d ",a[i]);
+//    }
 
 }
